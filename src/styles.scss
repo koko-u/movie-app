@@ -3,6 +3,16 @@
 @import "~primeflex/primeflex.scss";
 @import "~primeflex/themes/arya-blue.scss";
 
+@import "./styles/colors";
+
 body {
   font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: $white;
+  background-color: $bg-color;
+}
+
+a {
+  text-decoration: none;
+  color: $white;
 }
